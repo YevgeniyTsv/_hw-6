@@ -1,0 +1,46 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 25px;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7%;
+  text-decoration: none;
+}
+
+.button-news:hover {
+  background-color: #24b5e1;
+}
+
+.button-subscription:hover {
+  background-color: gray;
+}
+
+.button:active {
+  background-color: #45e7ec;
+}
+
+.button-news {
+  margin-top: -15px;
+  background-color: #e9e9e9;
+}
+
+.button-subscription {
+  background-color: #24b5e1;
+}
+
+.button-news-href {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.button-subs-href {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}

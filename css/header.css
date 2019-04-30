@@ -1,0 +1,101 @@
+.header-top {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 980px;
+    height: 105px;
+    overflow: hidden;
+  }
+  
+  .top {
+    align-self: center;
+  }
+  
+  .navigation-phone {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+  }
+  
+  
+  
+  .number-item {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .hover:hover {
+    color: rgb(112, 103, 234);
+  }
+  
+  .hover:active {
+    color: rgb(208, 24, 224);
+  }
+  
+  .phone {
+    align-self: center;
+  }
+  
+  .contacts {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .contacts  {
+    list-style-image: url(../images/phone.jpg);
+  }
+  
+  .contacts li a {
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .number {
+    margin-bottom: 13px;
+    white-space: nowrap;
+  }
+.number a {
+  color: #000000;
+  font-family: "Arial MT";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+
+  .header-bottom {
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation-bottom {
+    width: 980px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .navi-item {
+    padding: 15px 0px;
+  }
+  
+  .navi-item > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+  

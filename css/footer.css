@@ -1,0 +1,30 @@
+.footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    padding-top: 25px;
+    border-top: 1px dotted #000;
+  }
+  
+  .footer-icons {
+    display: flex;
+  }
+  
+  .footer-icon-img {
+    padding: 5px;
+  }
+  
+  .text-in-time {
+    color: #24b5e1;
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    color: #7c7c7c;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  

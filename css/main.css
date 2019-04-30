@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.section {
+  border-bottom: 1px dotted #000;
+  margin-bottom: 30px;
+}
+
+.paddig-bot {
+  padding-bottom: 20px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+.layout {
+  display: flex;
+  justify-content: flex-end;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.main {
+  justify-content: center;
+}
+
+.content {
+  flex-grow: 1;
+  padding-right: 50px;
+}
+
+.title-h1 {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 22px;
+  font-variant: small-caps;
+}
+
+.title-h3 {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  font-variant: small-caps;
+}
+
+.text {
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.li-symbol::before {
+  content: "━";
+  padding-right: 15px;
+  opacity: 0.5;
+}
+
+
+
+.list-order a {
+  color: #24b5e1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+.li-numbers,
+.li-symbol {
+  padding-bottom: 10px;
+}
+
+.title-h4 {
+  color: #555555;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
