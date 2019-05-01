@@ -18,7 +18,6 @@
   
   .navigation-phone {
     display: flex;
-    height: 100px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
@@ -53,6 +52,7 @@
   }
 
   .contacts  {
+    margin-top: 9px;
     list-style-image: url(../images/phone.jpg);
   }
   

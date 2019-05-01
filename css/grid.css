@@ -9,9 +9,24 @@ figure {
   }
   
   .grid>.grid-item {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5px;
     padding: 0 12.5px;
     display: inline-block;
     width: 33.33%;
+  }
+  .card-image {
+    width: 194px;
+    height: 215px;
+  }
+  .card-image img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
   }
   
   .list-numders {
